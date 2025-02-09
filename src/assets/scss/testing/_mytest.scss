@@ -1,0 +1,10 @@
+@use "@scss/abstract/index";
+
+.mytest {
+	font-size: 22px;
+	color: index.theme_text_color("header");
+	@include index.minMedia(550px) {
+		color: #f00;
+		font-size: 40px;
+	}
+}
