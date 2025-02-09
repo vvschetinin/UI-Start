@@ -1,5 +1,5 @@
 {
-	"name": "ui-vite-test",
+	"name": "ui-start",
 	"keywords": [],
 	"author": "Vladlen Schetinin",
 	"license": "ISC",
@@ -19,9 +19,7 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
-		"preview": "vite preview",
-		"force": "npm run dev -- --force",
-		"clearing cache": "pnpm dlx vite --force"
+		"preview": "vite preview"
 	},
 	"devDependencies": {
 		"@fullhuman/postcss-purgecss": "^7.0.2",
