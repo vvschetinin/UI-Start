@@ -19,11 +19,6 @@ export default defineConfig(({ mode }) => ({
 			},
 		},
 	},
-	server: {
-		hmr: {
-			overlay: false, // Убираем ошибки на клиенте
-		},
-	},
 	resolve: {
 		alias: aliases,
 	},
