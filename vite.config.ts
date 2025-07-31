@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => ({
       input: {
         main: path.resolve(root, "index.html"),
         about: path.resolve(root, "pages/about/index.html"),
-        err404: path.resolve(root, "pages/error/index.html"),
+        err404: path.resolve(root, "pages/error404/index.html"),
       },
     },
   },
