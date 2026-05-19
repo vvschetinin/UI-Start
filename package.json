@@ -22,17 +22,16 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "@fullhuman/postcss-purgecss": "^8.0.0",
     "@types/inputmask": "^5.0.7",
-    "@types/node": "^22.10.7",
-    "autoprefixer": "^10.4.20",
-    "cssnano": "^7.0.6",
-    "glob": "^11.0.1",
-    "postcss": "^8.5.1",
-    "prettier": "^3.6.0",
-    "sass": "^1.83.0",
-    "sass-reset": "^1.0.4",
-    "typescript": "~5.6.2",
-    "vite": "^7.0.0"
+    "@types/node": "^25.9.0",
+    "autoprefixer": "^10.5.0",
+    "cssnano": "^8.0.1",
+    "glob": "^13.0.6",
+    "postcss": "^8.5.15",
+    "prettier": "^3.8.3",
+    "sass": "^1.99.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12"
   }
 }
